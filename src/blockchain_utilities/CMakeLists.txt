@@ -116,7 +116,7 @@ endif()
 
 set_property(TARGET blockchain_import
 	PROPERTY
-	OUTPUT_NAME "electronero-blockchain-import")
+	OUTPUT_NAME "litenero-blockchain-import")
 install(TARGETS blockchain_import DESTINATION bin)
 
 monero_add_executable(blockchain_export
@@ -161,7 +161,7 @@ target_link_libraries(blockchain_blackball
 
 set_property(TARGET blockchain_blackball
 	PROPERTY
-	OUTPUT_NAME "electronero-blockchain-blackball")
+	OUTPUT_NAME "litenero-blockchain-blackball")
 install(TARGETS blockchain_blackball DESTINATION bin)
 
 
@@ -184,5 +184,5 @@ target_link_libraries(blockchain_usage
 
 set_property(TARGET blockchain_usage
 	PROPERTY
-	OUTPUT_NAME "electronero-blockchain-usage")
+	OUTPUT_NAME "litenero-blockchain-usage")
 install(TARGETS blockchain_usage DESTINATION bin)
